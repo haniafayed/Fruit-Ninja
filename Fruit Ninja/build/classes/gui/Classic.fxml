@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="325.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="340.0" fitWidth="601.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="v" fitHeight="48.0" fitWidth="64.0" layoutX="184.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

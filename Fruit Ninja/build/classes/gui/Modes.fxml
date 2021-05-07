@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="543.0" fitWidth="783.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bg2.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="classic" blendMode="BLUE" layoutX="304.0" layoutY="174.0" mnemonicParsing="false" onAction="#classicButtonPushed" text="Classic">
+               <font>
+                  <Font name="Forte" size="39.0" />
+               </font>
+            </Button>
+            <Button blendMode="GREEN" layoutX="314.0" layoutY="279.0" mnemonicParsing="false" onAction="#popUpArcade" text="Arcade">
+               <font>
+                  <Font name="Forte" size="39.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

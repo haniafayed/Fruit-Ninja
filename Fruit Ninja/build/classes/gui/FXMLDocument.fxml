@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="524.0" fitWidth="894.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="newGame" blendMode="COLOR_BURN" layoutX="79.0" layoutY="327.0" mnemonicParsing="false" onAction="#newGameButtonPushed" prefHeight="58.0" prefWidth="165.0" text="New Game" textFill="#171717">
+         <font>
+            <Font name="Cooper Black" size="23.0" />
+         </font>
+      </Button>
+      <Button blendMode="COLOR_BURN" layoutX="79.0" layoutY="397.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="58.0" prefWidth="165.0" text="Exit" textFill="#171717">
+         <font>
+            <Font name="Cooper Black" size="23.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
